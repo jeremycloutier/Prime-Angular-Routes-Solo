@@ -1,0 +1,46 @@
+body {
+    background-color: #00b3ee;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+button {
+    margin: 24px;
+}
+
+.bernie {
+    float: left;
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding-right: 14px;
+}
+
+.hillary {
+    float: left;
+    margin: 20px auto auto 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.donald {
+    float: right;
+    margin: 20px 40px auto 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+li{
+    list-style-type: none;
+}

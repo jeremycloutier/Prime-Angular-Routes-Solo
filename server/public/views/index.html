@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="candidatesApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Routes Solo Challenge</title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./views/styles/styles.css">
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+    <base href="/">
+</head>
+<body>
+    <h1>Angular Routes Solo Challenge</h1>
+
+    <div class="col-md-4">
+        <a href='/bernie'><button class="btn btn-info btn-lg">Bernie Sanders</button></a>
+    </div>
+
+    <div class="col-md-4">
+        <a href='/hillary'><button class="btn btn-warning btn-lg">Hillary Clinton</button></a>
+    </div>
+
+    <div class="col-md-4">
+        <a href='/donald'><button class="btn btn-danger btn-lg">Donald Trump</button></a>
+    </div>
+
+    <div ng-view>
+    </div>
+
+</body>
+</html>
